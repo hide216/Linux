@@ -1,0 +1,3 @@
+//公開鍵と秘密鍵
+ ssh-keygen -t rsa -b 4096
+ssh-copy-id username@ip

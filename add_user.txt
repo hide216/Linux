@@ -1,0 +1,4 @@
+//ユーザ追加
+sudo adduser USER_NAME
+// USER_NAMEさんを、sudoというグループに追加するUbuntuコマンド
+$ sudo gpasswd -a USER_NAME sudo

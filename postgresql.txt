@@ -1,0 +1,10 @@
+apt-get install postgresql
+
+ 
+//postgresユーザー変更
+sudo su postgres
+//localのDB
+psql
+
+//postgres pw変更
+  alter role postgres with password 'postgres'
